@@ -104,9 +104,12 @@ int main()
 {
   int A[] = {1, 2, 3, 4, 5};
   creat(A, 5);
-  
+
+  insert(0, 2);
+  insert(1, 3);
+  display(first);
 
   cout << "deleted value is " << deleteDoubly(first, 2) << endl;
   display(first);
   return 0;
-} 
+}

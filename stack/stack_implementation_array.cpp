@@ -9,8 +9,6 @@ struct stack
 
 int create(struct stack *st)
 {
-  // cout << "enter size of struct stack" << endl;
-  // cin >> st->size;
 
   st->top = -1;
   st->s = new int[5];
@@ -32,7 +30,7 @@ void push(struct stack *st, int val)
   else
   {
     st->top++;
-    st->s[st->top]=val;
+    st->s[st->top] = val;
   }
 }
 int pop(struct stack *st)
@@ -92,7 +90,7 @@ int full(struct stack st)
     return 1;
   }
   else
-    return 0; 
+    return 0;
 }
 int main()
 {

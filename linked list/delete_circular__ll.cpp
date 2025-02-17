@@ -102,10 +102,10 @@ int main()
   insertCircular(head, 0, 1);
   insertCircular(head, 1, 2);
   insertCircular(head, 2, 3);
-  insertCircular(head, 3, 6);
-  insertCircular(head, 4, 7);
+  insertCircular(head, 3, 4);
+  insertCircular(head, 4, 5);
 
-  cout << "deleted value is " << deleteCircular(head, 5) << endl;
+  cout << "deleted value is " << deleteCircular(head, 2) << endl;
   // deleteCircular(head, 3);
   display(head);
   return 0;
